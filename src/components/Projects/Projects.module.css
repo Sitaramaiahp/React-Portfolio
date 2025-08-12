@@ -1,0 +1,99 @@
+
+@import "../../vars.css";
+
+.projects {
+    padding: 95px 40px 20px;
+    min-height: 90vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+.container h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 24px;
+}
+.container p {
+    font-size: 20px;
+    color: var(--color-text);
+    margin-bottom: 32px;
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.pro {
+    width: 350px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    background-color: #94a3bb12;
+    backdrop-filter: blur(20px);
+}
+.pro img {
+    width: 100%;
+}
+.pro h4 {
+    font-size: 24px;
+    padding: 10px 24px;
+    color: var(--color-primary);
+}
+.pro p {
+    font-size: 15px;
+    padding: 0 24px;
+    margin-bottom: 16px;
+    color: var(--color-text);
+}
+.pro ul {
+    list-style: none; 
+    display: flex;
+    padding: 0 24px;
+    margin-bottom: 16px;
+}
+.pro ul li {
+    padding: 4px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    margin-right: 10px;
+    font-size: 12px;
+    color: var(--color-text);
+}
+.pro .btn {
+    padding: 0 24px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.pro .btn button {
+    width: 45%;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.pro .btn .dark {
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+}
+.pro .btn .glass {
+    color: var(--color-secondary);
+}
+
+@media (max-width: 799px) {
+    .pro {
+        width: 45%;
+    }
+}
+@media (max-width: 447px) {
+    .projects {
+        padding: 95px 20px;
+    }
+    .pro {
+        width: 100%;
+    }
+}
