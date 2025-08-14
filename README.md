@@ -1,6 +1,6 @@
 
 ## Live Demo
-- [https://sitaramaiah-portfolio.netlify.app/](https://sitaramaiahp-portfolio.netlify.app/)
+- [https://sitaramaiahp-portfolio.netlify.app/](https://sitaramaiahp-portfolio.netlify.app/)
   
 # React + Vite
 
