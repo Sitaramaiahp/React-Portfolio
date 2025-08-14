@@ -23,8 +23,8 @@ const Projects = () => {
                     <li>JavaScript</li>
                 </ul>
                 <div className={styles.btn}>
-                    <a href="https://github.com/Sitaramaiahp/React-Portfolio"><button className={styles.glass}>Code</button></a>
-                    <a href="https://sitaramaiah-portfolio.netlify.app/"><button className={styles.dark}>Live Demo</button></a>
+                    <a href="https://github.com/Sitaramaiahp/doctor-appointment-booking"><button className={styles.glass}>Code</button></a>
+                    <a href="https://stalwart-blini-dbe001.netlify.app/"><button className={styles.dark}>Live Demo</button></a>
                 </div>
             </div>
             <div className={styles.pro}>
