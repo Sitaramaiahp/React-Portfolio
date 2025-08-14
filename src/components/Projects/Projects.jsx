@@ -15,7 +15,7 @@ const Projects = () => {
             <div className={styles.pro}>
                 <img src={pro1} alt="pro1" />
                 <h3>E-Commerce Platform</h3>
-                <p>Developed a fully responsive e-commerce web application featuring a modern landing page, a detailed single product page, and an intuitive add-to-cart system.</p>
+                <p>Built a responsive e-commerce website with a modern landing page, product categories, and detailed single product pages.</p>
                 <ul>
                     <li>React</li>
                     <li>HTML</li>
@@ -23,8 +23,8 @@ const Projects = () => {
                     <li>JavaScript</li>
                 </ul>
                 <div className={styles.btn}>
-                    <a href="https://github.com/Sitaramaiahp/doctor-appointment-booking"><button className={styles.glass}>Code</button></a>
-                    <a href="https://stalwart-blini-dbe001.netlify.app/"><button className={styles.dark}>Live Demo</button></a>
+                    <a href="https://github.com/Sitaramaiahp/E-mart-Website"><button className={styles.glass}>Code</button></a>
+                    <a href="https://e-mart1.netlify.app/"><button className={styles.dark}>Live Demo</button></a>
                 </div>
             </div>
             <div className={styles.pro}>
