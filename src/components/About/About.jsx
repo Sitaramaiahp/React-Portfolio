@@ -28,27 +28,10 @@ const About = () => {
                     </div>
                 </div>
                 <div className={styles.experience}>
-                    <h3>Experience Timeline</h3>
+                    <h3>Certifications & Training</h3>
                     <div className={styles.job}>
-                        <h4 className={styles.year}>2025</h4>
-                        <div className={styles.details}>
-                            <h4>Junior Full Stack Developer</h4>
-                            <p>Leading development of scalable web applications</p>
-                        </div>
-                    </div>
-                    <div className={styles.job}>
-                        <h4 className={styles.year}>2025</h4>
-                        <div className={styles.details}>
-                            <h4>Junior Full Stack Developer</h4>
-                            <p>Leading development of scalable web applications</p>
-                        </div>
-                    </div>
-                    <div className={styles.job}>
-                        <h4 className={styles.year}>2025</h4>
-                        <div className={styles.details}>
-                            <h4>Junior Full Stack Developer</h4>
-                            <p>Leading development of scalable web applications</p>
-                        </div>
+                        <p><i>Completed</i><br />April-2025</p>
+                        <p><b>Python Full Stack Developer</b> <br /> - Sathya Technologies, Hyderabad</p>
                     </div>
                 </div>
             </div>

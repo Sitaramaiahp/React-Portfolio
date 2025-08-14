@@ -7,58 +7,15 @@
     justify-content: center;
     min-height: 90vh;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    height: 100%;
-}
-.container h1 {
-    font-size: 72px;
-    font-weight: 900;
-    color: var(--color-text);
-    font-family: var(--font-roboto);
-    margin-bottom: 24px;
-}
-.container h2 {
-    font-size: 48px;
-    font-weight: 700;
-    color: var(--color-primary);
-    margin-bottom: 24px;
-}
-.container p {
-    font-size: 24px;
-    color: var(--color-text);
-    margin-bottom: 32px;
-}
+
 .container .btn button {
     padding: 12px 32px;
     margin: 10px;
     font-size: 18px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-}
-.container .btn .dark {
-    background-color: var(--color-secondary);
-    color: var(--color-text);
-}
-.container .btn .glass {
-    color: var(--color-secondary);
 }
 
 @media (max-width: 447px) {
     .home {
         padding: 90px 20px 0;
-    }
-    .container h1 {
-        font-size: 48px;
-    }
-    .container h2 {
-        font-size: 32px;
-    }
-    .container p {
-        font-size: 20px;
     }
 }

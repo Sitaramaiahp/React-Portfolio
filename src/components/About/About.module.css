@@ -7,44 +7,17 @@
     min-height: 90vh;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     padding: 0 60px;
-    height: 100%;
-}
-.container h2 {
-    font-size: 48px;
-    font-weight: 700;
-    color: var(--color-primary);
-    margin-bottom: 24px;
-}
-.container p {
-    font-size: 20px;
-    color: var(--color-text);
-    margin-bottom: 32px;
-}
-.content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
 }
 .content .skills,
 .content .experience {
     padding: 32px;
     margin-bottom: 20px;
-    width: 45%;
-    border: 1px solid #fff;
+    width: 500px;
+    border: 1px solid var(--color-text);
     border-radius: 8px;
-    background-color: #94a3bb12;
+    background-color: var(--color-bg2);
     backdrop-filter: blur(20px);
-}
-.content h3 {
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 24px;
-    text-align: start;
-    color: var(--color-primary);
 }
 .skillBox {
     display: flex;
@@ -53,6 +26,7 @@
 .skillBox p {
     width: 33%;
     font-size: 18px;
+    font-weight: 500;
 }
 .experience .job {
     display: flex;
@@ -61,30 +35,22 @@
     flex-direction: row;
     margin-bottom: 20px;
 }
-.experience .job h4 {
+.experience .job p {
     font-size: 16px;
     font-weight: 500;
-    color: var(--color-primary);
-}
-.experience .job .year {
     margin-right: 15px;
 }
-.experience .job p {
-    font-size: 14px;
-    margin: 0;
+.experience .job p i, b {
+    font-size: 18px;
+    color: var(--color-primary);
 }
-.job .details {
-    text-align: start;
-    line-height: 22px;
-}
+
 
 @media (max-width: 799px) {
     .content {
         flex-direction: column;
     }
-    .content .skills {
-        width: 100%;
-    }
+    .content .skills,
     .content .experience {
         width: 100%;
     }

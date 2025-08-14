@@ -1,7 +1,8 @@
 
 import React from 'react'
 import styles from './Projects.module.css'
-import pro1 from "/assets/projects/project.png"
+import pro1 from "/assets/projects/project1.png"
+import pro2 from "/assets/projects/project.png"
 
 const Projects = () => {
   return (
@@ -13,23 +14,22 @@ const Projects = () => {
         <div className={styles.content}>
             <div className={styles.pro}>
                 <img src={pro1} alt="pro1" />
-                <h4>E-Commerce Platform</h4>
-                <p>Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard
-                </p>
+                <h3>E-Commerce Platform</h3>
+                <p>Developed a fully responsive e-commerce web application featuring a modern landing page, a detailed single product page, and an intuitive add-to-cart system.</p>
                 <ul>
                     <li>React</li>
-                    <li>Node.js</li>
-                    <li>MongoDB</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
                 <div className={styles.btn}>
-                    <button className={styles.glass}>Code</button>
-                    <button className={styles.dark}>Live Demo</button>
+                    <a href="https://github.com/Sitaramaiahp/React-Portfolio"><button className={styles.glass}>Code</button></a>
+                    <a href="https://sitaramaiah-portfolio.netlify.app/"><button className={styles.dark}>Live Demo</button></a>
                 </div>
             </div>
             <div className={styles.pro}>
-                <img src={pro1} alt="pro1" />
-                <h4>E-Commerce Platform</h4>
+                <img src={pro2} alt="pro2" />
+                <h3>E-Commerce Platform</h3>
                 <p>Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard
                 </p>
                 <ul>
@@ -39,13 +39,13 @@ const Projects = () => {
                     <li>JavaScript</li>
                 </ul>
                 <div className={styles.btn}>
-                    <button className={styles.glass}>Code</button>
-                    <button className={styles.dark}>Live Demo</button>
+                    <a href=""><button className={styles.glass}>Code</button></a>
+                    <a href=""><button className={styles.dark}>Live Demo</button></a>
                 </div>
             </div>
             <div className={styles.pro}>
-                <img src={pro1} alt="pro1" />
-                <h4>E-Commerce Platform</h4>
+                <img src={pro2} alt="pro3" />
+                <h3>E-Commerce Platform</h3>
                 <p>Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard
                 </p>
                 <ul>
@@ -55,8 +55,8 @@ const Projects = () => {
                     <li>JavaScript</li>
                 </ul>
                 <div className={styles.btn}>
-                    <button className={styles.glass}>Code</button>
-                    <button className={styles.dark}>Live Demo</button>
+                    <a href=""><button className={styles.glass}>Code</button></a>
+                    <a href=""><button className={styles.dark}>Live Demo</button></a>
                 </div>
             </div>
         </div>

@@ -1,50 +1,26 @@
-
 @import "../../vars.css";
 
 .projects {
     padding: 95px 40px 20px;
     min-height: 90vh;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-}
-.container h2 {
-    font-size: 48px;
-    font-weight: 700;
-    color: var(--color-primary);
-    margin-bottom: 24px;
-}
-.container p {
-    font-size: 20px;
-    color: var(--color-text);
-    margin-bottom: 32px;
-}
-.content {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
 .pro {
     width: 350px;
-    border: 1px solid #fff;
+    border: 1px solid var(--color-text);
     border-radius: 12px;
     margin-bottom: 20px;
-    background-color: #94a3bb12;
+    background-color: var(--color-bg2);
     backdrop-filter: blur(20px);
 }
 .pro img {
-    width: 100%;
+    border-radius: 12px 12px 0 0;
+    height: 200px;
 }
-.pro h4 {
-    font-size: 24px;
-    padding: 10px 24px;
-    color: var(--color-primary);
+.pro h3 {
+    padding: 10px 24px 0;
 }
 .pro p {
-    font-size: 15px;
+    font-size: 16px;
     padding: 0 24px;
     margin-bottom: 16px;
     color: var(--color-text);
@@ -57,31 +33,26 @@
 }
 .pro ul li {
     padding: 4px;
-    border: 1px solid #fff;
+    border: 1px solid var(--color-text);
     border-radius: 12px;
+    font-weight: 200;
     margin-right: 10px;
     font-size: 12px;
     color: var(--color-text);
+    background-color: var(--color-dark);
 }
 .pro .btn {
     padding: 0 24px 24px;
     display: flex;
     justify-content: space-between;
 }
-.pro .btn button {
+.pro .btn a {
     width: 45%;
+}
+.pro .btn button {
+    width: 100%;
     padding: 6px 12px;
     font-size: 16px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-}
-.pro .btn .dark {
-    background-color: var(--color-secondary);
-    color: var(--color-text);
-}
-.pro .btn .glass {
-    color: var(--color-secondary);
 }
 
 @media (max-width: 799px) {

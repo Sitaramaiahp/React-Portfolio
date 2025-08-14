@@ -9,8 +9,10 @@ const Resume = () => {
         <div className={styles.container}>
             <h2>Resume</h2>
             <p>Download my resume or view it below</p>
-            <a href={resume} download><button className={styles.dark}>Download Resume PDF</button></a>
-            <div className={styles.content}>
+            <div className={styles.btn}>
+              <a href={resume} download><button className={styles.dark}>Download Resume PDF</button></a>
+            </div>
+            <div className={styles.content1}>
                 <h3>Resume Preview</h3>
                 <iframe src={resume}></iframe>
             </div>

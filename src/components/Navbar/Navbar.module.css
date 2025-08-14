@@ -1,6 +1,4 @@
 
-@import "../../vars.css";
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -10,9 +8,9 @@
     top: 20px;
     left: 20px;
     right: 20px;
-    background-color: #94a3bb12;
+    background-color: var(--color-bg2);
     backdrop-filter: blur(20px);
-    border: 1px solid white;
+    border: 1px solid var(--color-text);
     border-radius: 8px;
     z-index: 1;
 }
@@ -69,7 +67,6 @@
         top: 60px;
         right: 0;
         border-radius: 10px;
-        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
     }
     .menuItems li {
         margin: 0 0 15px 0;

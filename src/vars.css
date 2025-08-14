@@ -6,7 +6,75 @@
     --color-secondary: #19376d;
     --color-dark: #0b2447;
     --color-bg: #04252d;
+    --color-bg2: #94a3bb12;
 
     /* Fonts */
     --font-robot: "Roboto";
+}
+h1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: var(--color-text);
+    font-family: var(--font-roboto);
+    margin-bottom: 24px;
+}
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 24px;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: start;
+    color: var(--color-primary);
+}
+p {
+    font-size: 22px;
+    color: var(--color-text);
+    margin-bottom: 32px;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+button {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+.btn .dark {
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+}
+.btn .glass {
+    color: var(--color-secondary);
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 447px) {
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 20px;
+    }
 }
